@@ -7,6 +7,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -15,5 +16,36 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RoseButton">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PageTitle">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/page_title_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PageDescription">
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/page_desc_text_size</item>
+    </style>
+
+    <style name="LabelText">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/label_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 
 </resources>

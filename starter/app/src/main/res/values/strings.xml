@@ -1,3 +1,29 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">ShoeStore</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_password">Password</string>
+    <string name="et_email">Enter Your Email</string>
+    <string name="et_password">Enter Your Password</string>
+    <string name="btn_create">Create</string>
+    <string name="btn_login">Login</string>
+    <string name="title_welcome">Welcome to shoes store app</string>
+    <string name="tv_welcome_description">Great now you can shop your next perfect shoe!</string>
+    <string name="tx_lets_start">Let\'s start</string>
+    <string name="tv_instructions_title">Want to pick a new shoes?</string>
+    <string name="tv_instructions">Click pick to choose your shoes</string>
+    <string name="btn_pick">Pick</string>
+    <string name="title_login">Login</string>
+    <string name="title_logout">Logout</string>
+    <string name="lable_title_welcome">Welcome</string>
+    <string name="lable_titlle_instructions">Instructions</string>
+    <string name="lable_title_shoe_list">Shoe List</string>
+    <string name="text_add_button_description">add button to add shoes</string>
+    <string name="shoe_image">shoe Image</string>
+    <string name="et_hint_shoe_name">Enter Shoe Name</string>
+    <string name="et_hint_company">Enter Company</string>
+    <string name="et_hint_size">Enter Size</string>
+    <string name="et_hint_description">Enter Description</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="lable_shoe_details">Shoe Details</string>
 </resources>
